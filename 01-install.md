@@ -37,7 +37,7 @@ import sklearn
 
 Did you install Python 2 or 3? Why? How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I installed Python 2.7. I have some familiarity with Python 2, and I have done some reading which encourages sticking to Python 2 due to wider library support. If you are on an unfamiliar computer you can run the python interpreter which will display the version.  
 
 ---
 
