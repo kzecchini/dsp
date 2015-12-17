@@ -64,7 +64,7 @@ Another example is returning all squares in range(5) which are divisible by 2:
 [x**2 for x in range(5) if x**2 % 2 == 0]
 [0, 4, 16]
 ```
-Again, this can be represented through the built in `map and `filter` functions:
+Again, this can be represented through the built in `map` and `filter` functions:
 ```
 filter(lambda x: x % 2 == 0, map(lambda x: x**2, range(5)))
 [0, 4, 16]
