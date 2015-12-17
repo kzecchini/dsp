@@ -31,7 +31,7 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 What terminal editor will you use? How did you make your decision?
 
-I will be using vim. After doing a bit of research, it seems like both Emacs and vim have their pros and cons. What specifically caught my attention was how vim has standard commands whereas Emacs provides a more tailored experience. Since vim is already present on most machines I think it would be beneficial to learn vim first. I also plan on using Sublime as my graphical editor. There is a plugin to use vi in Sublime which could be useful as well.
+>>I will be using vim. After doing a bit of research, it seems like both Emacs and vim have their pros and cons. What specifically caught my attention was how vim has standard commands whereas Emacs provides a more tailored experience. Since vim is already present on most machines I think it would be beneficial to learn vim first. I also plan on using Sublime as my graphical editor. There is a plugin to use vi in Sublime which could be useful as well.
 
 ---
 
@@ -61,6 +61,6 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-I will be using Sublime text. I would like to use a popular editor and it seems like Sublime is a good choice for a number of coding languages. It sits in a middle ground between bare bones editor and full IDE. Sublime is cross platform and has fantastic plug-in support. The features already available include split layouts, navigation through vi commands, code snippets, tabs, and automatic loading of previous sessions. Some plugins which seem useful (aside from Package Control) are Side Bar, SublimeLinter, and GitGutter. Adding plugins and configuring them through JSON is easy to do as well as easily transferable to other instances of Sublime. So far some useful shortcuts are cmd+shift+p for the command palette, ctrl+` for the console, and cmd+b to run code. Additionally, I set up the subl command line tool to open files directly in Sublime from a terminal window.
+>>I will be using Sublime text. I would like to use a popular editor and it seems like Sublime is a good choice for a number of coding languages. It sits in a middle ground between bare bones editor and full IDE. Sublime is cross platform and has fantastic plug-in support. The features already available include split layouts, navigation through vi commands, code snippets, tabs, and automatic loading of previous sessions. Some plugins which seem useful (aside from Package Control) are Side Bar, SublimeLinter, and GitGutter. Adding plugins and configuring them through JSON is easy to do as well as easily transferable to other instances of Sublime. So far some useful shortcuts are cmd+shift+p for the command palette, ctrl+` for the console, and cmd+b to run code. Additionally, I set up the subl command line tool to open files directly in Sublime from a terminal window.
 
 ---
