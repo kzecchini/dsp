@@ -34,7 +34,7 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.
 
->> ['mail.med.upenn.edu', 'upenn.edu', 'email.chop.edu', 'cceb.med.upenn.edu']
+>> `['mail.med.upenn.edu', 'upenn.edu', 'email.chop.edu', 'cceb.med.upenn.edu']`
 
 Place your code in this file: [advanced_python_regex.py](python/advanced_python_regex.py)
 
@@ -95,8 +95,9 @@ Print the first 3 key and value pairs of the dictionary:
 ```
 ('A. Russell', 'Localio') : ['JD MA MPH MS PhD', 'Associate Professor', 'rlocalio@upenn.edu']
 ('Alisa Jane', 'Stephens') : ['Ph.D.', 'Assistant Professor', 'alisaste@mail.med.upenn.edu']
-('Andrea Beth', 'Troxel') : ['ScD', 'Professor', 'atroxel@mail.med.upenn.edu']
+('Andrea Beth', 'Troxel') : ['ScD', 'Professor', 'atroxel@mail.med.upenn.edu']`
 ```
+
 ####Q8.  It looks like the current dictionary is printing by first name.  Sort by last name and print the first 3 key and value pairs.  
 
 ```
