@@ -94,6 +94,7 @@ Bellamy : [['Sc.D.', 'Associate Professor', 'bellamys@mail.med.upenn.edu']]
 Bilker : [['Ph.D.', 'Professor', 'warren@upenn.edu']]
 Bryan : [['PhD', 'Assistant Professor', 'bryanma@upenn.edu']]
 ```
+
 ####Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
 
 ```
