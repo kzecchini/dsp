@@ -11,7 +11,7 @@
 #     tuples = re.findall(r'([\w]+)\s*,\s*([\w\.\s]+),([\w\s]+)\s\w+\s*Biostatistics\s*,\s*([\w\.-]+@[\w\.-]+)', f.read())
 #     f.close()
 #     faculty_dict = {}
-#     for row in tuples:
+#     for row in throughples:
 #         if row[0] in faculty_dict:
 #             faculty_dict[row[0]].append(list(row[1:]))
 #         else:
@@ -30,6 +30,13 @@ import csv
 
 
 def csv_make_dict(data):
+    '''
+    Answer to Q6. Creates dictionary from csv input with keys and values as
+    Last_Name: [[Degree, Title, Email]]. For people with the same last name,
+    appends the list of information to correspond to the key.
+    Ex. Ellenberg: [[' Ph.D.', 'Professor', 'sellenbe@upenn.edu'], [' Ph.D.', 'Professor', 'jellenbe@mail.med.upenn.edu']]
+
+    '''
     f = open(data, 'rU')
     parsed_list = [row for row in csv.reader(f)]
     f.close()
@@ -47,6 +54,10 @@ def csv_make_dict(data):
 
 
 def csv_make_dict2(data):
+    '''
+    Answer to Q7 and Q8. Creates dictionary from csv input with keys and values as
+    (First, Last): [Degree, Title, Email].
+    '''
     f = open(data, 'rU')
     parsed_list = [row for row in csv.reader(f)]
     f.close()
@@ -60,6 +71,10 @@ def csv_make_dict2(data):
 
 
 def print_dict(dic, last_Name=None):
+    '''
+    Sorts dictionaries by key. If last_Name, will sort by last tuple then
+    first tuple in the key.
+    '''
     if last_Name:
         for key in sorted(dic.keys(), key=lambda x: (x[-1], x[0])):
             print '%s: %s' % (key, dic[key])
@@ -76,4 +91,3 @@ test2 = csv_make_dict2('faculty.csv')
 print_dict(test1)
 print_dict(test2)
 print_dict(test2, last_Name=True)
-
