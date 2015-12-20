@@ -11,7 +11,7 @@
 #     tuples = re.findall(r'([\w]+)\s*,\s*([\w\.\s]+),([\w\s]+)\s\w+\s*Biostatistics\s*,\s*([\w\.-]+@[\w\.-]+)', f.read())
 #     f.close()
 #     faculty_dict = {}
-#     for row in throughples:
+#     for row in tuples:
 #         if row[0] in faculty_dict:
 #             faculty_dict[row[0]].append(list(row[1:]))
 #         else:
