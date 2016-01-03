@@ -76,7 +76,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 >> We assume that the probability of having two boys given that they are twins is 1/4 for fraternal and 1/2 for identical. <br/>
 P(identical|twin brother) = P(identical)P(twin brother|identical)/P(twin brother) <br/>
-P(twin brother) = P(brother)P(fraternal) + P(brother)P(identical) = 1/4 * 1/125 + 1/2 * 1/300
+P(twin brother) = P(brother)P(fraternal) + P(brother)P(identical) = 1/4 * 1/125 + 1/2 * 1/300 <br/>
 P(identical|twin brother) = (1/300 * 1/2)/(1/4 * 1/125 + 1/2 * 1/300) = 5/11
 
 ---
@@ -86,9 +86,9 @@ How do frequentist and Bayesian statistics compare?
 
 >> Bayesian statistics is rooted in principles of mathematical logic. All unknown values are treated probabilistically and the state of the world can constantly be updated through observed real samples. This means that the data is fixed and not repeatable. The parameters are unknown and determined probabilistically.
 
-The Frequentist school of thought relies on the principle that probabilities represent long term frequencies. Instead of looking at previous observations, a frequentist assumes a repeatable random sampling process. All parameters remain constant to keep this sampling repeatable.
+>> The Frequentist school of thought relies on the principle that probabilities represent long term frequencies. Instead of looking at previous observations, a frequentist assumes a repeatable random sampling process. All parameters remain constant to keep this sampling repeatable.
 
-The major differences between the two are what is fixed and what the method can tell you. Bayesian statistics fixes data, and provides direct answers about the particular situation based on prior assumptions. Frequentist comparison fixes parameters, and provides indirect answers to particular situations based on long run frequency distributions.
+>> The major differences between the two are what is fixed and what the method can tell you. Bayesian statistics fixes data, and provides direct answers about the particular situation based on prior assumptions. Frequentist comparison fixes parameters, and provides indirect answers to particular situations based on long run frequency distributions.
 
 ---
 
