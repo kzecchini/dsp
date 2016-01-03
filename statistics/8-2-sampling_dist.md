@@ -1,6 +1,6 @@
 [Think Stats Chapter 8 Exercise 2](http://greenteapress.com/thinkstats2/html/thinkstats2009.html#toc77) (scoring)
 
->> In this question, we begin by sumlating a drawing of sample size n = 10 from an exponential distribution with lambda = 2. This experiment is simulated 1000 times. The standard error and a 90% confidence interval are calculated. The experiment was repeated with increasing values the sample size. We see that as n increases, standard error decreases. We also see that the confidence interval therefore decreases. The true value of lambda = 2 is present in every confidence interval constructed. A table of values is shown below:
+>> In this question, we begin by simulating a drawing of sample size n = 10 from an exponential distribution with lambda = 2. This experiment is simulated 1000 times. The standard error and a 90% confidence interval are calculated. The experiment was repeated with increasing values the sample size. We see that as n increases, standard error decreases. We also see that the confidence interval therefore decreases. The true value of lambda = 2 is present in every confidence interval constructed. A table of values is shown below:
 
 n | Standard Error | 90% Confidence Interval
 --- | -------------- | -----------------------
