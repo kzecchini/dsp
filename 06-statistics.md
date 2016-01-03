@@ -74,14 +74,21 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> We assume that the probability of having two boys given that they are twins is 1/4 for fraternal and 1/2 for identical. <br/>
+P(identical|twin brother) = P(identical)P(twin brother|identical)/P(twin brother) <br/>
+P(twin brother) = P(brother)P(fraternal) + P(brother)P(identical) = 1/4 * 1/125 + 1/2 * 1/300
+P(identical|twin brother) = (1/300 * 1/2)/(1/4 * 1/125 + 1/2 * 1/300) = 5/11
 
 ---
 
 ###Q8. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Bayesian statistics is rooted in principles of mathematical logic. All unknown values are treated probabilistically and the state of the world can constantly be updated through observed real samples. This means that the data is fixed and not repeatable. The parameters are unknown and determined probabilistically.
+
+The Frequentist school of thought relies on the principle that probabilities represent long term frequencies. Instead of looking at previous observations, a frequentist assumes a repeatable random sampling process. All parameters remain constant to keep this sampling repeatable.
+
+The major differences between the two are what is fixed and what the method can tell you. Bayesian statistics fixes data, and provides direct answers about the particular situation based on prior assumptions. Frequentist comparison fixes parameters, and provides indirect answers to particular situations based on long run frequency distributions.
 
 ---
 
