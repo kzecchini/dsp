@@ -1,12 +1,12 @@
 [Think Stats Chapter 7 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2008.html#toc70) (weight vs. age)
 
->> Using data from the National Survey of Family Growth, we can evaluate the relationship between mother's age at pregnancy and the birth weight of a child. First, we create scatter plots of mother's age vs. birth weight. The first is a scatter plot with transparency, and the second plot is a hexbin plot. Both show a similar representation of the data as this is a mid sized data set. With more values, a hexbin would become more appropriate to determine the shape of the relationship.
+>> Using data from the National Survey of Family Growth, we can evaluate the relationship between mother's age at pregnancy and the birth weight of a child. Two plots are created from the data. The first plot is a scatter plot using transparency to indicate density, and the second plot is a hexbin plot. Both show a similar representation of the data as this is a mid sized data set. With more values, a hexbin would become more appropriate to determine the shape of the relationship.
 
 <img src="img/scatter1.jpg" title="Scatter 1"/>
 <img src="img/scatter2.jpg" title="Scatter 2"/>
 
->> The scatter plot shows a weak relationship between the variables. We see that there is more density towards the center of the plot. We also observe that Pearson's correlation is 0.069 and Spearman's correlation is 0.095. This suggests a linear correlation is extremely weak, and may be influenced by outliers. This could also be indicative of a non-linear relationship. <br/>
-Another way to visualize the data is to bin one variable, and plot the percentile of the other. For each bin of age, a mean age and cdf of weight is produced. Age is plotted against the 75th, 50th, and 25th percentile of weight below:
+>> The scatter plot shows a weak relationship between the variables. We see that there is more density towards the center of the plot. We also observe that Pearson's correlation is 0.069 and Spearman's correlation is 0.095. This suggests a linear correlation is extremely weak, and may be influenced by outliers. This could also be indicative of a non-linear relationship. 
+>> Another way to visualize the data is to bin one variable, and plot the percentile of the other. For each bin of age, a mean age and cdf of weight is produced. Age is plotted against the 75th, 50th, and 25th percentile of weight below:
 
 <img src="img/scatter3.jpg" title="Scatter 3"/>
 
@@ -14,8 +14,9 @@ Another way to visualize the data is to bin one variable, and plot the percentil
 
 <img src="img/scatter4.jpg" title="Scatter 4"/>
 
->> There is a steeper slope in weights when looking between ages 15-25. For older ages, there is a slower rate of increase, and the plot takes on a more curved shape. This also suggests a non-linear relationship. <br/>
-Below is the code used to create these plots:
+>> There is a steeper slope in weights when looking between ages 15-25. For older ages, there is a slower rate of increase, and the plot takes on a more curved shape. This, along with the Pearson and Spearman correlation values, suggests a non-linear relationship between age and birth weight.
+
+>> Below is the code used to create these plots:
 
 ```
 from __future__ import print_function
