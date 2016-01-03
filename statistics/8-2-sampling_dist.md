@@ -3,25 +3,21 @@
 >> In this question, we begin by sumlating a drawing of sample size n = 10 from an exponential distribution with lambda = 2. This experiment is simulated 1000 times. The standard error and a 90% confidence interval are calculated. The experiment was repeated with increasing values the sample size. We see that as n increases, standard error decreases. We also see that the confidence interval therefore decreases. The true value of lambda = 2 is present in every confidence interval constructed. A table of values is shown below:
 
 n | Standard Error | 90% Confidence Interval
-- | -------------- | -----------------------
+--- | -------------- | -----------------------
 10 | 0.877500275721 | (1.2567398346141148, 3.8097768787167823)
-
 50 | 0.295196462143 | (1.5883914609261527, 2.5555610022931874)
-
 100 | 0.202574294314 | (1.7006691299126004, 2.3596017547167221)
-
 500 | 0.0897126938355 | (1.8645681524178541, 2.1555698575055171)
-
 1000 | 0.0614363330403 | (1.8996704108770956, 2.1017648588958959)
 2000 | 0.0438949273657 | (1.9317340581575793, 2.0734398183883354)
 
 >> Plots were made for the sampling distribution of the estimator L for each value of n. An example of the sampling distribution for n = 500 is shown. The other sampling distributions can be found in the [images folder](img).
 
-<img src="chap08sampleestimation500.jpg" title="Simulated Sample n = 500"/>
+<img src="img/chap08sampleestimation500.jpg" title="Simulated Sample"/>
 
 >> Additionally, the standard error was plotted against sample size. The relationship is non linear. The standard error decreases rapidly for a sample size between 10 and 100. Then it begins to have a much smaller slope for larger values of n.
 
-<img src="chap08stderrvsn.jpg" title="Standard Error vs. n"/>
+<img src="img/chap08stderrvsn.jpg" title="Standard Error vs. n"/>
 
 >> The code used to produce these results is shown below:
 
